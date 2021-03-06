@@ -1,0 +1,212 @@
+/*body*/
+body {
+    background-image: linear-gradient(white, rgb(103, 194, 151), rgb(250, 167, 218), rgb(247, 245, 140));    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(7, 145, 224);
+    margin-bottom: 10px;
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+section>p{
+    font-size: 20x;
+}
+
+/*nav bar*/
+nav{
+    text-align: center;
+    background-color : black;
+    font-size: 30px;
+    color-adjust: white;
+    overflow: hidden;
+
+}
+nav>ul{
+    margin-top: 0px;
+}
+nav>ul>li{
+    display: inline;
+    padding: 5px;   
+    margin-left: 20px;
+    margin-right: 20px;     
+    float: right;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+/*greetings*/
+.greetings {
+    color :red;
+    position:relative;
+    margin-left:100px;
+    font-size: 75px;
+}
+/*about me*/
+.about_me{
+    text-align: center;
+}
+.about_me .my_pic img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.my_pic{
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+}
+
+.my_discription{
+    display: inline-block;
+    width: 49%;
+}
+
+.my_discription + .my_pic{
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/*my work*/
+.my_work>ul{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.my_work>ul>li{
+    list-style: none;
+    color: blue;
+    text-decoration: underline;
+    display: inline-block;
+
+}
+
+.work_icon{
+    height: 15%;
+    width: 15%;
+    visibility: hidden;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.work_display:hover + .work_icon{
+    visibility: visible;
+}
+
+.work_display + .work_icon{
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*my resume*/
+.resume_th1,.resume_th2,.resume_th3{
+    background-color:lawngreen;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid lawngreen;
+    border-top: 1px solid lawngreen;
+}
+.resume_th1,.resume_td1{
+    border-left: 1px solid white;
+}
+.resume_th3,.resume_td3{
+    border-right: 1px solid white;
+}
+.resume_td1,.resume_td2,.resume_td3{
+    border-bottom: 1px solid white;
+}
+table{
+    border-collapse: collapse;
+    margin: 25px;
+}
+
+td{
+    padding: 10px;
+}
+
+iframe{
+    display: block;
+    position: relative;
+    margin: auto;
+}
+/*contact me*/
+form{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+label,input{
+    margin: 3px;
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+    display: flex;
+}
+.long_message{
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.send{
+    margin-bottom: 50px;
+}
+
+
+/*footer*/
+footer{
+    text-align: center;
+    background-color : black;
+    color-adjust: white;
+    color: white;
+    font-size: 20px;
+    margin:0;
+    overflow: hidden;
+}
+footer>p{
+    margin-right: 30px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.my_signature{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social_media{
+    display: inline-block;
+    margin: 15px;
+    float: right;
+}
+.signature+.fa-facebook-f{
+    display: inline-block;
+ }
+ 
+footer .container{
+     width: 1120px;
+     margin-right: auto;
+     margin-left: auto;
+}

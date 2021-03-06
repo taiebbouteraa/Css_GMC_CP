@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>My potfolio</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">  
+        <script src="https://kit.fontawesome.com/c16526c31d.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Work</a>
+                    </li>
+                    <li>
+                        <a href="#">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--greetings section-->
+            <section>
+                <p class="greetings">
+                    Hello ! Hello !
+                </p>
+            </section>
+              <!--section 1 "about me"-->
+            <section class="about_me">
+                <h1>About Me</h1>
+                
+                    <div class="my_discription">
+                        <p>
+                          My name is Taieb and I love science : Biologie (the mother of all sciecence) and coding (the future of science)
+                        </p> 
+                    </div>
+                    <div class="my_pic">
+                        <img src="./res/123.png" alt="My photo"> 
+                    </div>
+                
+            </section>
+                <!--section 2 "my work"-->
+            <section class="my_work">
+                <h1> My Work </h1>
+                <p>
+                    My work may be resumed in these three points : 
+                    <br>
+                    <ul>
+                        <li class="work_display">Manager of primary private school</li>
+                            <img src="./res/school.jpg" alt="School.jpg" class="work_icon"> 
+                        
+                        <li class="work_display">PhD student in Biology</li>
+                            <img src="./res/phd.jpg" alt="PhD.jpg" class="work_icon">
+                        
+                        <li class="work_display">Web Development</li>
+                            <img src="./res/coding.jpg" alt="Coding.jpg" class="work_icon"> 
+                        
+                    </ul>
+                </p>
+            </section>
+                <!--section 3 my resume-->
+            <section class="resume">
+                <h1>My resume</h1>
+                <table border="1">
+                    <tr>
+                      <th class="resume_th1">Manager of primary private school</th>
+                      <th class="resume_th2">PhD student</th>
+                      <th class="resume_th3">Web Development</th>
+                    </tr>
+                    <tr>
+                      <td class="resume_td1">I founded the primary school the year 2019 and the number of pupils have been increasing ever since.</td>
+                      <td class="resume_td2">I graduated my masters degree the year 2018 and i worked on plant genetics and plant viruses in my end of study's project. 
+                        <br> Now, I'm studing for a PhD degree in plant biothechnology trying to improve our local wheat crops.</td>
+                      <td class="resume_td3">I've been passionate about coding so i started learning to code and I'm planning to create a website for my school.
+                        <br> The video below insited me to learn coding.</td>
+                    </tr>
+                  </table>
+
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/xgp_WVwA7Sg" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+            </section>
+                <!--section 4 contact me-->
+            <section>
+                <h1>Contact Me</h1>
+                <form class="contact_me">
+                    <label>Message</label>
+                    <input class="long_message" type="text" placeholder="Type your message here" />
+                    <br>
+
+                    <label>e-mail adress</label>
+                    <input type="email" name="e-mail" placeholder="example@example.eg" />
+                    <br>
+
+                    <label>Phone number</label>
+                    <input type="number" name="Phone number" placeholder="Your phone number" />
+                    <br>
+
+                    <input class="send" type="submit" value="Send">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+            <div class="signature">
+                <p class="my_signature">Author:<br>BOUTERAA M.T.</p>
+                <p class="my_signature"><a href="mailto:bouteraa.taieb@gmail.com" class="mail_link">mail :<br>bouteraa.taieb@gmail.com</a></p>
+                <p class="my_signature">Phone number :<br>(+216) 54 803 956</p>
+            </div>
+            <div class="social_media">
+                <i> <a href="https://www.facebook.com/profile.php?id=100005075056899" class="fab fa-facebook-f"> </a></i>
+            </div>
+        </div>
+        </footer>
+       
+
+
+
+
+    </body>
+</html>
